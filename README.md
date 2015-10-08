@@ -4,6 +4,12 @@
 The `injector.js` module is a very simple and straightforward dependency
 injection pattern in NodeJS.
 
+##TOC
+[How does it help?](#user-content-how-does-it-help)  
+[Practical use case](#user-content-practical-use-case)  
+[Run the current example](#user-content-run-the-current-example)  
+[API](#user-content-api)
+
 ##How does it help?
 Allows you to call a function without passing a dependencies object but only
 the actual required parameters:
@@ -83,6 +89,17 @@ let result = doSomething('someParameterValue', 'aSecondParameterValue');
 The pattern relies on the fact that functions are objects in Javascript.
 The injector module decorates a function instance with methods for injecting
 and clearing dependencies.
+
+##Run the current example
+
+Checkout the repo then do a  
+`npm install`  
+then start the example with  
+`npm start`  
+run the tests with  
+`npm test`  
+or debug the code using  
+`npm run debug`
 
 ##API
 
