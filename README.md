@@ -1,4 +1,5 @@
 #Simple DI pattern
+[![Build Status](https://travis-ci.org/efidiles/nodejs-decorator-for-di.svg?branch=master)](https://travis-ci.org/efidiles/nodejs-decorator-for-di)
 
 The `injector.js` module is a very simple and straightforward dependency
 injection pattern in NodeJS.
