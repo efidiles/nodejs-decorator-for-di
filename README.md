@@ -23,8 +23,8 @@ parameter of the function's declaration:
 ```js
 function doSomething(dependencies, parameter1, parameter2) {
   /**
-   * do something with dependencies.someDependency, parameter1 and
-   * parameter2 then return
+   * Do something with dependencies.someDependency, parameter1 and
+   * parameter2 then return.
    */
 }
 ```
@@ -53,8 +53,8 @@ let injector = require('./injector');
  */
 function doSomething(dependencies, parameter1, parameter2) {
   /**
-   * do something with dependencies.someDependency, parameter1 and
-   * parameter2 then return
+   * Do something with dependencies.someDependency, parameter1 and
+   * parameter2 then return.
    */
 }
 
@@ -69,19 +69,19 @@ then in some other file:
 
 ```js
 /**
- * require the module we just created above
+ * Require the module we just created above.
  */
 let doSomething = require('./do-something');
 
 /**
- * inject the dependencies
+ * Inject dependencies.
  */
 doSomething.injectDependencies({
   someDependency: new SomeDependency()
 });
 
 /**
- * call the exported function
+ * Call the exported function.
  */
 let result = doSomething('someParameterValue', 'aSecondParameterValue');
 ```
