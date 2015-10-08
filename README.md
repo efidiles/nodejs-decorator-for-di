@@ -109,7 +109,7 @@ the same name.
 
 **Arguments**
 - `obj` - object with dependencies.
-  Eg: {nameOfDependency: dependencyInstance}
+  Eg: `{nameOfDependency: dependencyInstance}`
 
 ###clearDependencies()
 Clears all dependencies.
